@@ -1,0 +1,132 @@
+2025-08-09 03:19:32,064 - INFO - Database connection established
+2025-08-09 03:19:32,065 - INFO - Starting training pipeline...
+2025-08-09 03:21:47,208 - INFO - Database connection established
+2025-08-09 03:21:47,209 - INFO - Starting training pipeline...
+2025-08-09 03:31:40,902 - INFO - Database connection established
+2025-08-09 03:31:40,903 - INFO - Starting training pipeline...
+2025-08-09 03:37:42,512 - INFO - Database connection established
+2025-08-09 03:37:42,513 - INFO - Starting training pipeline...
+2025-08-09 03:38:16,226 - INFO - Database connection established
+2025-08-09 03:38:16,226 - INFO - Starting training pipeline...
+2025-08-09 03:53:42,637 - INFO - Database connection established
+2025-08-09 03:53:42,637 - INFO - Starting training pipeline...
+2025-08-09 04:03:46,305 - ERROR - Database connection failed: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\nNet-Lib error during Unknown error (10061)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\nNet-Lib error during Unknown error (10061)\n')
+2025-08-09 04:05:29,694 - ERROR - Database connection failed: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\nNet-Lib error during Unknown error (10061)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\nNet-Lib error during Unknown error (10061)\n')
+2025-08-09 04:09:53,936 - ERROR - Database connection failed: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (didUngli)\nNet-Lib error during Unknown error (10061)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (didUngli)\nNet-Lib error during Unknown error (10061)\n')
+2025-08-09 04:11:02,871 - ERROR - Database connection failed: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (DIDUNGLI)\nNet-Lib error during Unknown error (10061)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (DIDUNGLI)\nNet-Lib error during Unknown error (10061)\n')
+2025-08-09 04:12:19,770 - ERROR - Database connection failed: 'TrainingConfig' object has no attribute 'DB_SERVER'
+2025-08-09 04:13:10,920 - WARNING - Failed to connect to DIDUNGLI\SQLEXPRESS: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (DIDUNGLI)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (DIDUNGLI)\n')
+2025-08-09 04:13:10,922 - WARNING - Failed to connect to localhost\SQLEXPRESS: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (localhost)\n')
+2025-08-09 04:13:12,984 - WARNING - Failed to connect to 127.0.0.1: (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (127.0.0.1)\nNet-Lib error during Unknown error (10061)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (127.0.0.1)\nNet-Lib error during Unknown error (10061)\n')
+2025-08-09 04:13:12,984 - ERROR - All connection attempts failed. Please verify:
+2025-08-09 04:13:12,984 - ERROR - 1. SQL Server is running
+2025-08-09 04:13:12,985 - ERROR - 2. TCP/IP is enabled in SQL Server Configuration Manager
+2025-08-09 04:13:12,985 - ERROR - 3. Your credentials are correct
+2025-08-09 04:47:37,235 - INFO - Database connection established
+2025-08-09 04:47:37,235 - INFO - Starting training pipeline...
+2025-08-09 04:47:37,251 - INFO - Training models for RELIANCE
+2025-08-09 04:47:37,251 - ERROR - Error fetching data for RELIANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,253 - WARNING - Insufficient data for RELIANCE
+2025-08-09 04:47:37,253 - INFO - Training models for TCS
+2025-08-09 04:47:37,253 - ERROR - Error fetching data for TCS: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,254 - WARNING - Insufficient data for TCS
+2025-08-09 04:47:37,254 - INFO - Training models for HDFCBANK
+2025-08-09 04:47:37,255 - ERROR - Error fetching data for HDFCBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,255 - WARNING - Insufficient data for HDFCBANK
+2025-08-09 04:47:37,255 - INFO - Training models for INFY
+2025-08-09 04:47:37,257 - ERROR - Error fetching data for INFY: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,257 - WARNING - Insufficient data for INFY
+2025-08-09 04:47:37,257 - INFO - Training models for ICICIBANK
+2025-08-09 04:47:37,258 - ERROR - Error fetching data for ICICIBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,258 - WARNING - Insufficient data for ICICIBANK
+2025-08-09 04:47:37,258 - INFO - Training models for HINDUNILVR
+2025-08-09 04:47:37,259 - ERROR - Error fetching data for HINDUNILVR: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,259 - WARNING - Insufficient data for HINDUNILVR
+2025-08-09 04:47:37,259 - INFO - Training models for ITC
+2025-08-09 04:47:37,259 - ERROR - Error fetching data for ITC: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,260 - WARNING - Insufficient data for ITC
+2025-08-09 04:47:37,260 - INFO - Training models for SBIN
+2025-08-09 04:47:37,261 - ERROR - Error fetching data for SBIN: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,261 - WARNING - Insufficient data for SBIN
+2025-08-09 04:47:37,261 - INFO - Training models for BAJFINANCE
+2025-08-09 04:47:37,262 - ERROR - Error fetching data for BAJFINANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,262 - WARNING - Insufficient data for BAJFINANCE
+2025-08-09 04:47:37,262 - INFO - Training models for WIPRO
+2025-08-09 04:47:37,263 - ERROR - Error fetching data for WIPRO: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:47:37,263 - WARNING - Insufficient data for WIPRO
+2025-08-09 04:47:37,264 - INFO - Training pipeline completed!
+2025-08-09 04:47:37,265 - INFO - Training completed successfully!
+2025-08-09 04:47:37,265 - INFO - Models saved to: ./models/
+2025-08-09 04:47:37,265 - INFO - You can now start the FastAPI backend to serve predictions.
+2025-08-09 04:54:38,075 - INFO - Database connection established
+2025-08-09 04:54:38,076 - INFO - Starting training pipeline...
+2025-08-09 04:54:38,080 - INFO - Training models for RELIANCE
+2025-08-09 04:54:38,080 - ERROR - Error fetching data for RELIANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,081 - WARNING - Insufficient data for RELIANCE
+2025-08-09 04:54:38,081 - INFO - Training models for TCS
+2025-08-09 04:54:38,081 - ERROR - Error fetching data for TCS: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,081 - WARNING - Insufficient data for TCS
+2025-08-09 04:54:38,081 - INFO - Training models for HDFCBANK
+2025-08-09 04:54:38,082 - ERROR - Error fetching data for HDFCBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,082 - WARNING - Insufficient data for HDFCBANK
+2025-08-09 04:54:38,082 - INFO - Training models for INFY
+2025-08-09 04:54:38,082 - ERROR - Error fetching data for INFY: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,083 - WARNING - Insufficient data for INFY
+2025-08-09 04:54:38,083 - INFO - Training models for ICICIBANK
+2025-08-09 04:54:38,083 - ERROR - Error fetching data for ICICIBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,085 - WARNING - Insufficient data for ICICIBANK
+2025-08-09 04:54:38,085 - INFO - Training models for HINDUNILVR
+2025-08-09 04:54:38,085 - ERROR - Error fetching data for HINDUNILVR: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,085 - WARNING - Insufficient data for HINDUNILVR
+2025-08-09 04:54:38,085 - INFO - Training models for ITC
+2025-08-09 04:54:38,087 - ERROR - Error fetching data for ITC: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,087 - WARNING - Insufficient data for ITC
+2025-08-09 04:54:38,087 - INFO - Training models for SBIN
+2025-08-09 04:54:38,088 - ERROR - Error fetching data for SBIN: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,088 - WARNING - Insufficient data for SBIN
+2025-08-09 04:54:38,088 - INFO - Training models for BAJFINANCE
+2025-08-09 04:54:38,088 - ERROR - Error fetching data for BAJFINANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,088 - WARNING - Insufficient data for BAJFINANCE
+2025-08-09 04:54:38,089 - INFO - Training models for WIPRO
+2025-08-09 04:54:38,089 - ERROR - Error fetching data for WIPRO: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:54:38,089 - WARNING - Insufficient data for WIPRO
+2025-08-09 04:54:38,090 - INFO - Training pipeline completed!
+2025-08-09 04:54:38,090 - INFO - Training completed successfully!
+2025-08-09 04:54:38,090 - INFO - Models saved to: ./models/
+2025-08-09 04:54:38,091 - INFO - You can now start the FastAPI backend to serve predictions.
+2025-08-09 04:58:14,085 - INFO - Database connection established
+2025-08-09 04:58:14,085 - INFO - Starting training pipeline...
+2025-08-09 04:58:14,086 - INFO - Training models for RELIANCE
+2025-08-09 04:58:14,087 - ERROR - Error fetching data for RELIANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,087 - WARNING - Insufficient data for RELIANCE
+2025-08-09 04:58:14,087 - INFO - Training models for TCS
+2025-08-09 04:58:14,088 - ERROR - Error fetching data for TCS: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,088 - WARNING - Insufficient data for TCS
+2025-08-09 04:58:14,088 - INFO - Training models for HDFCBANK
+2025-08-09 04:58:14,088 - ERROR - Error fetching data for HDFCBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,089 - WARNING - Insufficient data for HDFCBANK
+2025-08-09 04:58:14,089 - INFO - Training models for INFY
+2025-08-09 04:58:14,089 - ERROR - Error fetching data for INFY: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,089 - WARNING - Insufficient data for INFY
+2025-08-09 04:58:14,089 - INFO - Training models for ICICIBANK
+2025-08-09 04:58:14,089 - ERROR - Error fetching data for ICICIBANK: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,090 - WARNING - Insufficient data for ICICIBANK
+2025-08-09 04:58:14,090 - INFO - Training models for HINDUNILVR
+2025-08-09 04:58:14,090 - ERROR - Error fetching data for HINDUNILVR: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,090 - WARNING - Insufficient data for HINDUNILVR
+2025-08-09 04:58:14,091 - INFO - Training models for ITC
+2025-08-09 04:58:14,091 - ERROR - Error fetching data for ITC: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,091 - WARNING - Insufficient data for ITC
+2025-08-09 04:58:14,091 - INFO - Training models for SBIN
+2025-08-09 04:58:14,092 - ERROR - Error fetching data for SBIN: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,092 - WARNING - Insufficient data for SBIN
+2025-08-09 04:58:14,092 - INFO - Training models for BAJFINANCE
+2025-08-09 04:58:14,092 - ERROR - Error fetching data for BAJFINANCE: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,092 - WARNING - Insufficient data for BAJFINANCE
+2025-08-09 04:58:14,093 - INFO - Training models for WIPRO
+2025-08-09 04:58:14,093 - ERROR - Error fetching data for WIPRO: (156, b"Incorrect syntax near the keyword 'open'.DB-Lib error message 20018, severity 15:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2025-08-09 04:58:14,094 - WARNING - Insufficient data for WIPRO
+2025-08-09 04:58:14,094 - INFO - Training pipeline completed!
+2025-08-09 04:58:14,095 - INFO - Training completed successfully!
+2025-08-09 04:58:14,095 - INFO - Models saved to: ./models/
+2025-08-09 04:58:14,095 - INFO - You can now start the FastAPI backend to serve predictions.
